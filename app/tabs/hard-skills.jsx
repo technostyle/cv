@@ -63,7 +63,7 @@ export const HardSkills = () => (
   <Container>
     <ListGroup>
       <SkillItem technology="HTML5" graduation={60} />
-      <SkillItem technology="CSS" graduation={50} />
+      <SkillItem technology="CSS" graduation={60} />
       <SkillItem technology="Javascript" graduation={80} />
       <SkillItem technology="React" graduation={80} />
       <SkillItem technology="Redux" graduation={80} />

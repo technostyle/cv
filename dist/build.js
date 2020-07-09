@@ -507,7 +507,7 @@ var HardSkills = function HardSkills() {
     graduation: 60
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
     technology: "CSS",
-    graduation: 50
+    graduation: 60
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
     technology: "Javascript",
     graduation: 80
