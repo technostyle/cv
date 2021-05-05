@@ -2,6 +2,14 @@ import React from "react";
 import Table from "react-bootstrap/Table";
 import Container from "react-bootstrap/Container";
 
+function calculateAge(birthday) { // birthday is a date
+  var ageDifMs = Date.now() - birthday;
+  var ageDate = new Date(ageDifMs); // miliseconds from epoch
+  return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
+
+const age = calculateAge(Date.parse('Dec 5, 1994'));
+
 export const PersonalInfo = () => (
   <Container>
     <Table striped bordered hover>
@@ -12,7 +20,7 @@ export const PersonalInfo = () => (
         </tr>
         <tr>
           <td>Age</td>
-          <td>25</td>
+          <td>{age}</td>
         </tr>
         <tr>
           <td>E-mail</td>

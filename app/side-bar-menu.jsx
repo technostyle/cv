@@ -32,14 +32,14 @@ const NavItemLinks = () => (
     <Nav.Item>
       <Nav.Link eventKey={navBarLinksNames.HARD_SKILLS}>Hard skills</Nav.Link>
     </Nav.Item>
-    <Nav.Item>
+    {/* <Nav.Item>
       <Nav.Link eventKey={navBarLinksNames.SOFT_SKILLS}>Soft skills</Nav.Link>
     </Nav.Item>
     <Nav.Item>
       <Nav.Link eventKey={navBarLinksNames.PERSONAL_SKILLS}>
         Personal skills
       </Nav.Link>
-    </Nav.Item>
+    </Nav.Item> */}
     <Nav.Item>
       <Nav.Link eventKey={navBarLinksNames.LANGUAGES}>Languages</Nav.Link>
     </Nav.Item>
@@ -60,12 +60,12 @@ const TabsInfo = () => (
     <Tab.Pane eventKey={navBarLinksNames.HARD_SKILLS}>
       <HardSkills />
     </Tab.Pane>
-    <Tab.Pane eventKey={navBarLinksNames.SOFT_SKILLS}>
+    {/* <Tab.Pane eventKey={navBarLinksNames.SOFT_SKILLS}>
       <SoftSkills />
-    </Tab.Pane>
-    <Tab.Pane eventKey={navBarLinksNames.PERSONAL_SKILLS}>
+    </Tab.Pane> */}
+    {/* <Tab.Pane eventKey={navBarLinksNames.PERSONAL_SKILLS}>
       <PersonalSkills />
-    </Tab.Pane>
+    </Tab.Pane> */}
     <Tab.Pane eventKey={navBarLinksNames.LANGUAGES}>
       <Languages />
     </Tab.Pane>

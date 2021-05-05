@@ -192,10 +192,6 @@ var NavItemLinks = function NavItemLinks() {
   }, "Experience")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
     eventKey: app_constants__WEBPACK_IMPORTED_MODULE_5__["navBarLinksNames"].HARD_SKILLS
   }, "Hard skills")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
-    eventKey: app_constants__WEBPACK_IMPORTED_MODULE_5__["navBarLinksNames"].SOFT_SKILLS
-  }, "Soft skills")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
-    eventKey: app_constants__WEBPACK_IMPORTED_MODULE_5__["navBarLinksNames"].PERSONAL_SKILLS
-  }, "Personal skills")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
     eventKey: app_constants__WEBPACK_IMPORTED_MODULE_5__["navBarLinksNames"].LANGUAGES
   }, "Languages")));
 };
@@ -210,10 +206,6 @@ var TabsInfo = function TabsInfo() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tabs__WEBPACK_IMPORTED_MODULE_6__["Experience"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Tab__WEBPACK_IMPORTED_MODULE_1__["default"].Pane, {
     eventKey: app_constants__WEBPACK_IMPORTED_MODULE_5__["navBarLinksNames"].HARD_SKILLS
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tabs__WEBPACK_IMPORTED_MODULE_6__["HardSkills"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Tab__WEBPACK_IMPORTED_MODULE_1__["default"].Pane, {
-    eventKey: app_constants__WEBPACK_IMPORTED_MODULE_5__["navBarLinksNames"].SOFT_SKILLS
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tabs__WEBPACK_IMPORTED_MODULE_6__["SoftSkills"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Tab__WEBPACK_IMPORTED_MODULE_1__["default"].Pane, {
-    eventKey: app_constants__WEBPACK_IMPORTED_MODULE_5__["navBarLinksNames"].PERSONAL_SKILLS
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tabs__WEBPACK_IMPORTED_MODULE_6__["PersonalSkills"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Tab__WEBPACK_IMPORTED_MODULE_1__["default"].Pane, {
     eventKey: app_constants__WEBPACK_IMPORTED_MODULE_5__["navBarLinksNames"].LANGUAGES
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tabs__WEBPACK_IMPORTED_MODULE_6__["Languages"], null)));
 };
@@ -311,6 +303,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mipt__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mipt */ "./app/tabs/experience/mipt.jsx");
 /* harmony import */ var _algoritmika__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./algoritmika */ "./app/tabs/experience/algoritmika.jsx");
 /* harmony import */ var _jet__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./jet */ "./app/tabs/experience/jet.jsx");
+/* harmony import */ var _lanit__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lanit */ "./app/tabs/experience/lanit.jsx");
+
 
 
 
@@ -318,7 +312,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Experience = function Experience() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_1__["default"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Jet soft, Middle, July 2019 - now "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_jet__WEBPACK_IMPORTED_MODULE_5__["JetExperience"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_1__["default"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Algoritmika, Junior, Nov 2018 - June 2019 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_algoritmika__WEBPACK_IMPORTED_MODULE_4__["AlgoritmikaExperience"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_1__["default"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " MIPT, Intern, Sep 2018 - Nov 2018 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_mipt__WEBPACK_IMPORTED_MODULE_3__["MiptExperience"], null))));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_1__["default"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Lanit, Middle/Senior, September 2020 - now "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lanit__WEBPACK_IMPORTED_MODULE_6__["LanitExperience"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_1__["default"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Jet soft, Middle, July 2019 - September 2020 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_jet__WEBPACK_IMPORTED_MODULE_5__["JetExperience"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_1__["default"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Algoritmika, Junior, Nov 2018 - June 2019 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_algoritmika__WEBPACK_IMPORTED_MODULE_4__["AlgoritmikaExperience"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_1__["default"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " MIPT, Intern, Sep 2018 - Nov 2018 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_mipt__WEBPACK_IMPORTED_MODULE_3__["MiptExperience"], null))));
 };
 
 /***/ }),
@@ -378,6 +372,49 @@ var JetExperience = function JetExperience() {
   }, "Stack of technologies")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
     eventKey: "2"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Body, null, "React, Redux, Redux-thunk, Redux-form, rest-api, kubernetes, Jira, Postgresql"))));
+};
+
+/***/ }),
+
+/***/ "./app/tabs/experience/lanit.jsx":
+/*!***************************************!*\
+  !*** ./app/tabs/experience/lanit.jsx ***!
+  \***************************************/
+/*! exports provided: LanitExperience */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LanitExperience", function() { return LanitExperience; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Accordion */ "./node_modules/react-bootstrap/esm/Accordion.js");
+/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Card */ "./node_modules/react-bootstrap/esm/Card.js");
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
+
+
+
+
+var LanitExperience = function LanitExperience() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Header, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
+    as: react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__["default"],
+    variant: "link",
+    eventKey: "0"
+  }, "Project")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
+    eventKey: "0"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Body, null, "VTB bank projects. Worked with internal ui-kit visual components library. Implemented features for bank web client application VTB-online. Was a core developer of a team concerned of separating legacy interanl bank application into microfrontends."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Header, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
+    as: react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__["default"],
+    variant: "link",
+    eventKey: "1"
+  }, "Responsibilities")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
+    eventKey: "1"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Body, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Building micro-frontend app design from scratch to production"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Creating front-server, solving integration environments problems, making things work"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Creating intergation test environment"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Implementing features from scratch in ongoing project"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Decomposing tasks, mentoring other frontend developers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Demonstrating team achievments and new functionality")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Header, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
+    as: react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__["default"],
+    variant: "link",
+    eventKey: "2"
+  }, "Stack of technologies")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
+    eventKey: "2"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Body, null, "Webpack 5, NodeJs, React, MobX, Redux, styled-components, Redux-thunk, rest-api, Jira"))));
 };
 
 /***/ }),
@@ -519,7 +556,22 @@ var HardSkills = function HardSkills() {
     graduation: 80
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
     technology: "Redux-thunk",
-    graduation: 100
+    graduation: 90
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
+    technology: "styled-components",
+    graduation: 50
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
+    technology: "webpack",
+    graduation: 70
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
+    technology: "git",
+    graduation: 80
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
+    technology: "nodejs",
+    graduation: 50
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
+    technology: "Docker",
+    graduation: 30
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
     technology: "Redux-observable",
     graduation: 50
@@ -530,22 +582,10 @@ var HardSkills = function HardSkills() {
     technology: "bootstrap",
     graduation: 20
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
-    technology: "webpack",
-    graduation: 50
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
-    technology: "git",
-    graduation: 70
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
-    technology: "nodejs",
-    graduation: 30
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
     technology: "electron",
     graduation: 40
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
     technology: "node-webkit",
-    graduation: 30
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
-    technology: "styled-components",
     graduation: 30
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
     technology: "kubernetes",
@@ -555,9 +595,6 @@ var HardSkills = function HardSkills() {
     graduation: 30
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
     technology: "Jenkins",
-    graduation: 10
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SkillItem, {
-    technology: "Docker",
     graduation: 10
   })));
 };
@@ -642,12 +679,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+function calculateAge(birthday) {
+  // birthday is a date
+  var ageDifMs = Date.now() - birthday;
+  var ageDate = new Date(ageDifMs); // miliseconds from epoch
+
+  return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
+
+var age = calculateAge(Date.parse('Dec 5, 1994'));
 var PersonalInfo = function PersonalInfo() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Table__WEBPACK_IMPORTED_MODULE_1__["default"], {
     striped: true,
     bordered: true,
     hover: true
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Moscow, Russia")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Age"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "25")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "E-mail"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "perloff.danila at gmail.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Media"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Moscow, Russia")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Age"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, age)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "E-mail"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "perloff.danila at gmail.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Media"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://career.habr.com/technostyle"
   }, "career.habr.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Repos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/technostyle"

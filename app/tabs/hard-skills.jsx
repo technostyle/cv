@@ -67,20 +67,20 @@ export const HardSkills = () => (
       <SkillItem technology="Javascript" graduation={80} />
       <SkillItem technology="React" graduation={80} />
       <SkillItem technology="Redux" graduation={80} />
-      <SkillItem technology="Redux-thunk" graduation={100} />
+      <SkillItem technology="Redux-thunk" graduation={90} />
+      <SkillItem technology="styled-components" graduation={50} />
+      <SkillItem technology="webpack" graduation={70} />
+      <SkillItem technology="git" graduation={80} />
+      <SkillItem technology="nodejs" graduation={50} />
+      <SkillItem technology="Docker" graduation={30} />
       <SkillItem technology="Redux-observable" graduation={50} />
       <SkillItem technology="react-bootstrap" graduation={50} />
       <SkillItem technology="bootstrap" graduation={20} />
-      <SkillItem technology="webpack" graduation={50} />
-      <SkillItem technology="git" graduation={70} />
-      <SkillItem technology="nodejs" graduation={30} />
       <SkillItem technology="electron" graduation={40} />
       <SkillItem technology="node-webkit" graduation={30} />
-      <SkillItem technology="styled-components" graduation={30} />
       <SkillItem technology="kubernetes" graduation={10} />
       <SkillItem technology="Jira" graduation={30} />
       <SkillItem technology="Jenkins" graduation={10} />
-      <SkillItem technology="Docker" graduation={10} />
     </ListGroup>
   </Container>
 );
