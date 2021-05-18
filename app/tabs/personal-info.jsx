@@ -24,7 +24,7 @@ export const PersonalInfo = () => (
         </tr>
         <tr>
           <td>E-mail</td>
-          <td>perloff.danila at gmail.com</td>
+          <td>danila.perlov at yandex.com</td>
         </tr>
         <tr>
           <td>Media</td>
